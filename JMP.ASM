@@ -1,0 +1,13 @@
+	 CODE
+         ORG $8000
+IROM     EQU 0
+	 BYTE 'WDC',00
+         LDA #$81
+         STA BCR
+	 LDA #$C1
+	 STA PCS3
+	 JMP NOEXTROM
+	 ENDS
+
+	 APPEND MONJMP.ASM
+

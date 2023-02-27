@@ -1,0 +1,19 @@
+	  TTL 'W65C134 Internal ROM Monitor ($F000)'
+
+*        06-23-1993
+
+	 PW 132
+
+         CHIP 65C02
+	 LONGA OFF
+	 LONGI OFF
+	 LEADZERO ON
+	 INCLIST ON
+	 LIST ON
+	 CONDLIST ON
+
+
+	 APPEND COPYRITE.ASM
+
+
+
